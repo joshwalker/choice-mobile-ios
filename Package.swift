@@ -7,12 +7,12 @@ let package = Package(
     products: [
         .library(
             name: "ChoiceMobile",
-            targets: ["ChoiceMobileBinaryTarget"]
+            targets: ["ChoiceMobile"]
         )
     ],
     targets: [
         .binaryTarget(
-            name: "ChoiceMobileBinaryTarget",
+            name: "ChoiceMobile",
             path: "ChoiceMobile.xcframework"
         )
     ]
